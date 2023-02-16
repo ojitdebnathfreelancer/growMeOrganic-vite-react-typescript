@@ -10,7 +10,7 @@ export default function Form() {
     const [open, setOpen] = React.useState(true);
 
     const navigate = useNavigate();
-    // navigate hook for naviate second page 
+    // navigate hook for naviate second page 2
 
     const [name, setName] = React.useState('');
     const [phone, setPhone] = React.useState('');
