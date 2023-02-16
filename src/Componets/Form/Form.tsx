@@ -49,6 +49,9 @@ export default function Form() {
                 <Typography variant="h5" component="h2" sx={{ textAlign: 'center', textTransform: 'capitalize', marginBottom: '10px' }}>
                     Write your informations
                 </Typography>
+                <Typography variant="h5" component="h2" sx={{ textAlign: 'center', textTransform: 'capitalize', marginBottom: '10px' }}>
+                    Write your details
+                </Typography>
 
                 {/* form start  */}
                 <form onSubmit={handelSave}>
