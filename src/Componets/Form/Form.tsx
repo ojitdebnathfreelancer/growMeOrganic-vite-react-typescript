@@ -10,7 +10,7 @@ export default function Form() {
     const [open, setOpen] = React.useState(true);
 
     const navigate = useNavigate();
-    // navigate hook for naviate second page 2
+    // navigate hook for naviate second page 2+3
 
     const [name, setName] = React.useState('');
     const [phone, setPhone] = React.useState('');
@@ -48,6 +48,9 @@ export default function Form() {
 
                 <Typography variant="h5" component="h2" sx={{ textAlign: 'center', textTransform: 'capitalize', marginBottom: '10px' }}>
                     Write your informations
+                </Typography>
+                <Typography variant="h5" component="h2" sx={{ textAlign: 'center', textTransform: 'capitalize', marginBottom: '10px' }}>
+                    Write your details
                 </Typography>
 
                 {/* form start  */}
